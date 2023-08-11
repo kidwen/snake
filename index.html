@@ -191,6 +191,7 @@
                     // this.autoEatFood();
                     this.movingPath = this.getMovingPath();
                     this.movingPath?.shift();
+                    this.removeFood();
                 },
                 removeAllFood: function () {
                     for (let index = 0; index < this.food.length; index++) {
